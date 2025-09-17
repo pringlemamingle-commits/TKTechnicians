@@ -31,6 +31,7 @@ const BookingForm = () => {
                 method="POST"
                 // @ts-ignore: Netlify attribute
                 data-netlify="true"
+                action="/success"
                 encType="multipart/form-data"
                 className="space-y-6"
               >
