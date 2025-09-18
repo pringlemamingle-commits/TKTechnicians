@@ -19,6 +19,20 @@
 
   <body>
     <div id="root"></div>
+
+    <!-- ✅ Hidden form so Netlify can detect it -->
+    <form name="booking" netlify netlify-honeypot="bot-field" hidden>
+      <input type="text" name="name" />
+      <input type="tel" name="phone" />
+      <input type="email" name="email" />
+      <input type="text" name="address" />
+      <input type="text" name="subject" />
+      <input type="text" name="applianceBrand" />
+      <input type="text" name="applianceModel" />
+      <textarea name="message"></textarea>
+      <input type="file" name="attachment" />
+    </form>
+
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
