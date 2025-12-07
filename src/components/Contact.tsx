@@ -33,7 +33,7 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold text-white mb-4">Call Us</h3>
             <p className="text-white/90 mb-4">Give us a call for immediate assistance</p>
             <a 
-              href="tel:+1234567890"
+              href="tel:+9055862726"
               className="text-yellow hover:text-yellow-dark transition-colors text-lg font-medium"
             >
               (905) 586 2726
